@@ -1,0 +1,60 @@
+{
+  "flex-config": {
+    "advanced-telemetry": ["false"],
+    "compiler": [{
+      "allow-source-path-overlap": ["false"],
+      "as3": ["true"],
+      "compress": ["false"],
+      "debug": ["true"],
+      "es": ["false"],
+      "external-library-path": [{
+        "path-element": []
+      }],
+      "library-path": [{
+        "path-element": []
+      }],
+      "mobile": ["true"],
+      "omit-trace-statements": ["false"],
+      "optimize": ["true"],
+      "show-actionscript-warnings": ["true"],
+      "show-binding-warnings": ["true"],
+      "show-multiple-definition-warnings": ["true"],
+      "source-path": [{
+        "path-element": []
+      }],
+      "strict": ["true"],
+      "verbose-stacktraces": ["false"],
+      "warn-assignment-within-conditional": ["true"],
+      "warn-bad-array-cast": ["true"],
+      "warn-bad-date-cast": ["true"],
+      "warn-bad-nan-comparison": ["true"],
+      "warn-bad-null-assignment": ["true"],
+      "warn-bad-undefined-comparison": ["true"],
+      "warn-const-not-initialized": ["true"],
+      "warn-duplicate-variable-def": ["true"],
+      "warn-instance-of-changes": ["true"],
+      "warn-missing-namespace-decl": ["true"],
+      "warn-no-type-decl": ["true"]
+    }],
+    "debug-password": [""],
+    "default-background-color": ["0xFFFFFF"],
+    "default-frame-rate": ["24"],
+    "default-script-limits": [{
+      "max-recursion-depth": ["1000"],
+      "max-execution-time": ["60"]
+    }],
+    "default-size": [{
+      "width": ["500"],
+      "height": ["375"]
+    }],
+    "metadata": [{
+      "creator": ["unknown"],
+      "description": [""],
+      "language": ["EN"],
+      "publisher": ["unknown"],
+      "title": ["Adobe ActionScript Application"]
+    }],
+    "target-player": ["19.0.0"],
+    "use-network": ["true"]
+  }
+}
