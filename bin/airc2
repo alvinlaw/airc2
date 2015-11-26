@@ -1,0 +1,40 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var program = require('commander');
+var pkg = require('../package.json');
+var config = require('../lib/config');
+
+program
+  .version(pkg.version)
+
+program
+  .command('init')
+  .description('initialize default config file')
+  .action(function(){
+    console.log('initialize default config file');
+    config.init();
+  });
+
+program
+  .command('build')
+  .description('build swf from actionscript or sources files')
+  .action(function(){
+    console.log('building swf file');
+    config.initBuild();
+  });
+
+program
+  .command('test [simulator]')
+  .description('run application with simulator')
+  .action(function(simulator){
+    simulator = simulator || 'air';
+    console.log('running with simulator %s', simulator);
+});
+
+program.parse(process.argv);
+
+if (!process.argv.slice(2).length) {
+  program.outputHelp();
+}

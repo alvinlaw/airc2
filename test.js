@@ -4,7 +4,7 @@ var airSdk = require('node-air-sdk');
 
 var config;
 
-fs.readFile(__dirname + '/lib/default-config.json', function(err, data) {
+fs.readFile(__dirname + '/json/default-air-config.json', function(err, data) {
   config = JSON.parse(data);
 
   config["flex-config"].compiler[0]["external-library-path"][0]["path-element"].push(airSdk.AIR_HOME+"/frameworks/libs/air/airglobal.swc");
