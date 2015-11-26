@@ -1,7 +1,0 @@
-{
-  "xml": "src/app.xml",
-  "src": "src/source.as",
-  "swf": "bin/output.swf",
-  "ane": "ane",
-  "libs": "libs"
-}
