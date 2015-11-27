@@ -1,5 +1,11 @@
 # airc2
 
+## Installation
+
+```
+npm install -g airc2
+```
+
 ## Usage
 
 ### Init a project
