@@ -5,6 +5,7 @@
 var program = require('commander');
 var pkg = require('../package.json');
 var config = require('../lib/config');
+var command = require('../lib/command');
 
 program
   .version(pkg.version)
@@ -23,14 +24,16 @@ program
   .action(function(){
     console.log('building swf file');
     config.initBuild();
+    command.build();
   });
 
 program
   .command('test [simulator]')
   .description('run application with simulator')
   .action(function(simulator){
-    simulator = simulator || 'air';
+    simulator = simulator || 'iPhone6';
     console.log('running with simulator %s', simulator);
+    command.run(simulator);
 });
 
 program.parse(process.argv);

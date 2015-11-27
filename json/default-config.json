@@ -2,6 +2,8 @@
   "xml": "src/app.xml",
   "src": "src/source.as",
   "swf": "bin/output.swf",
-  "ane": "ane",
-  "libs": "libs"
+  "bin-path": "bin",
+  "src-path": "src",
+  "ane-path": "ane",
+  "libs-path": "libs"
 }
