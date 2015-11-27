@@ -5,5 +5,17 @@
   "bin-path": "bin",
   "src-path": "src",
   "ane-path": "ane",
-  "libs-path": "libs"
+  "libs-path": "libs",
+  "res-path": "res",
+
+  "ios": {
+    "keystore": "",
+    "keypass": "",
+    "provisioning-profile": ""
+  },
+
+  "android": {
+    "keystore": "",
+    "keypass": ""
+  }
 }

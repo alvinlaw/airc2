@@ -36,6 +36,17 @@ program
     command.run(simulator);
 });
 
+program
+  .command('package [platform]')
+  .description('package application')
+  .option("-b, --build [mode]", "Use 'debug' or 'release' build")
+  .action(function(platform, options){
+    var buildMode = options.build || "debug";
+    platform = platform || 'ios';
+    console.log('package for platform %s', platform);
+    command.package(platform, buildMode);
+});
+
 program.parse(process.argv);
 
 if (!process.argv.slice(2).length) {
