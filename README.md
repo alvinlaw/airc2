@@ -30,5 +30,5 @@ airc2 test [iPhone5Retina|iPhone|iPhone6|iPhone6plus]
 ### Package swf into ipa or apk
 
 ```
-airc2/bin/airc2 package --build [debug|release] [ios|andoird]
+airc2 package --build [debug|release] [ios|andoird]
 ```
