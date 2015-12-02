@@ -8,7 +8,7 @@
   },
   "bin": {
 		"airc2": "./bin/airc2"
-	},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alvinlaw/airc2.git"
