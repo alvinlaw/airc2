@@ -1,7 +1,6 @@
 {
   "xml": "src/app.xml",
   "src": "src/source.as",
-  "swf": "bin/output.swf",
   "bin-path": "bin",
   "src-path": "src",
   "ane-path": "ane",
