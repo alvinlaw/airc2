@@ -30,7 +30,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "del": "^2.1.0",
-    "node-air-sdk": "^0.1.0",
+    "node-air-sdk": "^0.2.0",
     "unzip": "^0.1.11",
     "xml2js": "^0.4.15",
     "xmlbuilder": "^4.1.0"
